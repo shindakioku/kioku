@@ -1,0 +1,8 @@
+gmail:
+  smtp: smtp.gmail.com
+  port: 465
+  from:
+    mail: 
+    nameSurname: 
+  login:
+  password: 

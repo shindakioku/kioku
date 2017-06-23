@@ -1,0 +1,27 @@
+{
+    "name": "shinda/events",
+    "description": "The Shinda Events package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ShindaKioku",
+            "email": "shindakioku@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Kioku\\Events\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.3-dev"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "shinda/container": "dev"
+    }
+}

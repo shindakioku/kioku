@@ -1,0 +1,30 @@
+{
+    "name": "kioku/auth",
+    "description": "The Kioku Auth package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ShindaKioku",
+            "email": "shindakioku@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kioku\\Auth\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.3-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "shinda/http": "dev",
+        "shinda/helpers": "dev",
+        "symfony/yaml": "^3.3",
+        "doctrine/orm": "^2.5"
+    }
+}

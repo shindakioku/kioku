@@ -1,0 +1,3 @@
+required: 'Поле :attribute обязательно к заполнению'
+min: 'Поле :attribute не может быть меньше :length'
+max: 'Поле :attribute не может быть больше :length'

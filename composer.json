@@ -1,0 +1,28 @@
+{
+    "name": "shindakioku/kioku",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ShindaKioku",
+            "email": "shindakioku@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "doctrine/orm": "^2.5",
+        "symfony/yaml": "^3.3",
+        "swiftmailer/swiftmailer": "^6.0",
+        "twig/twig": "^2.4",
+        "robmorgan/phinx": "^0.8.0",
+        "symfony/var-dumper": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/app/",
+            "Kioku\\": "src/kioku/"
+        },
+        "files": [
+            "src/kioku/Helpers/Functions.php"
+        ]
+    }
+}

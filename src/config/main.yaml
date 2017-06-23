@@ -1,0 +1,12 @@
+validation-lang: ru
+
+controllers_dir: 'App\Controllers'
+
+providers:
+  Kioku\Http\Providers\CookieServiceProvider
+  Kioku\Http\Providers\ResponseServiceProvider
+  Kioku\Http\Providers\SessionServiceProvider
+  Kioku\Http\Providers\RequestServiceProvider
+  Kioku\Mail\MailServiceProvider
+  Kioku\View\ViewServiceProvider
+  Kioku\Validate\ValidateServiceProvider

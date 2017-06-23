@@ -1,0 +1,10 @@
+path:  '/../app/Entities/'
+
+isDev: true
+
+settings:
+  driver: pdo_mysql
+  host: 127.0.0.1
+  dbname: kioku
+  user: mysql
+  password: mysql
